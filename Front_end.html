@@ -1,0 +1,45 @@
+<html>
+    <head>
+        <script src="calculator.js"></script>
+        <title>Calculator</title>
+        <link rel="stylesheet" type="text/css" href="design.css" />
+    </head>
+
+    <body>
+        <h1 id="header">Calculator</h1>
+
+        <div id="calculator">
+            <div id="display">
+                <p id="num">0</p>
+            </div>
+
+
+            <input class="button" id="percent" type="button" onclick="percent()" value="%" />
+            <input class="button" id="clearEntry" type="button" onclick="clearEntry()" value="CE" />
+            <input class="button" id="clear" type="button" onclick="clearCalculation()" value="C" />
+            <input class="button" id="backSpace" type="button" onclick="deleteDigit()" value="&#9003;" />
+            <button class="button" id="inverse" onclick="inverse()" data-superscript=" -1">x</button> 
+            <button class="button" id="square" onclick="square()" data-superscript="2">x</button>
+            <input class="button" id="sqrt" type="button" onclick="sqrt()" value="&#8730;"/>
+            <input class="button" id="divide" type="button" onclick="division()" value="&#247;" />
+            <input class="button" id="seven" type="button" onclick="getNum(this.value)" value="7" />
+            <input class="button" id="eight" type="button" onclick="getNum(this.value)" value="8" />
+            <input class="button" id="nine" type="button" onclick="getNum(this.value)" value="9" />
+            <input class="button" id="multiply" type="button" onclick="multiplication()" value="&#10006;" />
+            <input class="button" id="four" type="button" onclick="getNum(this.value)" value="4" />
+            <input class="button" id="five" type="button" onclick="getNum(this.value)" value="5" />
+            <input class="button" id="six" type="button" onclick="getNum(this.value)" value="6" />
+            <input class="button" id="subtract" type="button" onclick="subtract()" value="&#8722;" />
+            <input class="button" id="one" type="button" onclick="getNum(this.value)" value="1" />
+            <input class="button" id="two" type="button" onclick="getNum(this.value)" value="2" />
+            <input class="button" id="three" type="button" onclick="getNum(this.value)" value="3" />
+            <input class="button" id="addition" type="button" onclick="add()" value="+" />
+            <input class="button" id="plusMinus" type="button" onclick="plusMinus()" value="+/-" />
+            <input class="button" id="zero" type="button" onclick="getNum(this.value)" value="0" />
+            <input class="button" id="decimal" type="button" onclick="addDecimal()" value="." />
+            <input class="button" id="equals" type="button" onclick="equals()" value="=" />
+         </div>
+
+
+    </body>
+</html>

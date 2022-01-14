@@ -1,0 +1,179 @@
+#header{
+    font:70px Arial;
+    color:white;
+    text-align: center;
+
+}
+
+#display{
+    color:white;
+    font:20px Arial;
+    height:100px;
+    width:700px;
+    border: 1px solid rgb(167, 162, 162);
+    overflow: hidden;
+}
+
+#num{
+    text-align: right;
+    font:50px Arial;
+    padding-right: 10px;
+}
+
+#equation{
+    text-align: right;
+    font:50px Arial;
+}
+
+#calculator{
+    margin:0 auto; /*to align centrally in the page*/
+    height: 448px;
+    width:700px;
+    border:1px solid rgb(167, 162, 162);
+}
+
+
+body{
+    background-color: black;
+}
+
+#percent:hover{
+    background-color:rgb(167, 162, 162);
+}
+
+#clearEntry:hover{
+    background-color:rgb(167, 162, 162);
+}
+
+#clear:hover{
+    background-color:rgb(167, 162, 162); 
+}
+
+#backSpace:hover{
+    background-color:rgb(167, 162, 162) ;
+}
+
+#inverse:hover{
+    background-color: rgb(167, 162, 162);
+}
+
+#inverse::after{
+    content: attr(data-superscript);
+    vertical-align: super;
+}
+
+#square:hover{
+    background-color: rgb(167, 162, 162);
+}
+
+#square::after {
+    content: attr(data-superscript);
+    vertical-align: super;
+}
+
+#sqrt:hover{
+    background-color: rgb(167, 162, 162);
+}
+
+#divide{
+    font-size: 35px;
+}
+
+#divide:hover{
+    background-color: rgb(167, 162, 162);
+}
+
+#seven:hover{
+    background-color: rgb(167, 162, 162);
+}
+
+#eight:hover{
+    background-color: rgb(167, 162, 162);   
+}
+
+#nine:hover{
+    background-color: rgb(167, 162, 162);
+}
+
+#multiply:hover{
+    background-color: rgb(167, 162, 162);
+}
+
+#four:hover{
+    background-color: rgb(167, 162, 162);
+}
+
+#five:hover{
+    background-color: rgb(167, 162, 162);
+}
+
+#six:hover{
+    background-color: rgb(167, 162, 162);
+}
+
+#subtract{
+    font-size: 35px;
+}
+
+#subtract:hover{
+    background-color: rgb(167, 162, 162);
+}
+
+#one:hover{
+    background-color: rgb(167, 162, 162);
+}
+
+#two:hover{
+    background-color: rgb(167, 162, 162);
+}
+
+#three:hover{
+    background-color: rgb(167, 162, 162);
+}
+
+#addition{
+    font-size: 35px;
+}
+#addition:hover{
+    background-color: rgb(167, 162, 162);
+}
+
+#plusMinus:hover{
+    background-color: rgb(167, 162, 162);
+}
+
+#zero:hover{
+    background-color: rgb(167, 162, 162);
+}
+
+#decimal{
+    font-size: 35px;
+}
+
+#decimal:hover{
+    background-color: rgb(167, 162, 162);
+}
+
+#equals{
+    font-size: 35px;
+}
+
+#equals:hover{
+    background-color: rgb(167, 162, 162);
+}
+
+.button{
+    background-color: black;
+    color:white;
+    font:20px Arial;
+    border:1px solid rgb(180, 155, 155);
+    height:58px;
+    width:175px;
+    float:left;
+    cursor: pointer;
+}
+
+.button:active {
+    transform: translateY(4px);
+  }
+
